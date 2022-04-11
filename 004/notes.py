@@ -21,6 +21,13 @@ print(random_float_between_0_and_5)
 
 print(module_test.random_integer_test)
 
+# The split() method splits a string into a list.
+# You can specify the separator, default separator is any whitespace.
+
+txt = "apple#banana#cherry#orange"
+x = txt.split("#")
+print(x)
+
 # lists
 # data structure
 # open and closed brackets with commas
@@ -40,11 +47,11 @@ print(states_of_america)
 states_of_america.extend(["Canada", "Mexico"]) # adds multiple items to the list. adding a list to a list essentially
 print(states_of_america)
 
-print(len(states_of_america))
+print(len(states_of_america)) # number of things in the list
 
-# The split() method splits a string into a list.
-# You can specify the separator, default separator is any whitespace.
+fruits = ["strawberries", "spinach," "kale", "nectarines", "apples", "grapes"]
+vegetables = ["peaches", "cherries", "pears", "tomatoes", "celery", "potatoes"]
 
-txt = "apple#banana#cherry#orange"
-x = txt.split("#")
-print(x)
+dirty_dozen = [fruits, vegetables] # lists on lists on lists
+
+print(dirty_dozen)
