@@ -20,11 +20,21 @@ def turn_around():
     turn_left()
     turn_left()
 
+# not working for some reason
 
-while at_goal() == False:
-    if front_is_clear() and wall_on_right:
-        move()
-    elif right_is_clear():
+# while not at_goal():
+#     if front_is_clear():
+#         move()
+#     elif right_is_clear():
+#         turn_right()
+#     elif wall_on_right() and wall_in_front():
+#         turn_left()
+
+while not at_goal():
+    if right_is_clear():
         turn_right()
+        move()
+    elif front_is_clear() and wall_on_right():
+       move()
     elif wall_on_right() and wall_in_front():
         turn_left()
