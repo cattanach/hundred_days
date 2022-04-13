@@ -47,8 +47,14 @@ while number_of_hurles > 0:
     number_of_hurles -= 1
     print(number_of_hurles)
 
+# this'll run once
+
 something_is_true = True
 
 while something_is_true:
     print("do this")
     something_is_true = False
+
+# for loops are good for iterating through a sequence, like printing each item in a list
+# while loops are good when for when you don't care how many things are in a sequence
+# while loops are more dangerous cause they don't necessarily have a set end - infinite loop
