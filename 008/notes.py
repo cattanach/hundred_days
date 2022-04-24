@@ -20,5 +20,5 @@ def greet_with_name_and_location(name, location):
     print(f"hello {name}")
     print(f"how's the weather in {location}?")
 
-greet_with_name_and_location("sean", "york")
-greet_with_name_and_location(location = "york", name = "sean") # keyword arguments
+greet_with_name_and_location("sean", "york")                        # positional arguments
+greet_with_name_and_location(location = "york", name = "sean")      # keyword arguments         <-- same output
