@@ -10,3 +10,4 @@ https://www.udemy.com/course/100-days-of-code/
 007 hangman
 008 function parameters
 009 dictionaries and nesting
+010 functions with outputs
