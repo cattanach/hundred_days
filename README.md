@@ -12,3 +12,4 @@ https://www.udemy.com/course/100-days-of-code/
 009 dictionaries and nesting
 010 functions with outputs
 011 blackjack
+012 number guessing
