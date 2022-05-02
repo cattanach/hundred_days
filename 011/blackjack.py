@@ -143,14 +143,14 @@ def blackjack():
             print("You went over. You lose.")
         elif final_dealer_score > 21 and final_player_score < 21:
             print("Dealer went over. You won.")
+        elif final_player_score == final_dealer_score:
+            print("It's a draw.")
         elif final_player_score == 21:
             print("You won.")
         elif final_player_score > final_dealer_score:
             print("You won.")
         elif final_player_score < final_dealer_score:
             print("You lost.")
-        elif final_player_score == final_dealer_score:
-            print("It's a draw.")
 
     # results
 
